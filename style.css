@@ -531,8 +531,8 @@ button:focus-visible {
   gap: 10px;
 }
 
-.redes-flutuantes a {
-  background-color: var(--verde-whatsapp);
+.redes-flutuantes .instagram-flutuante {
+  background: #C13584;
   color: var(--branco);
   display: inline-flex;
   align-items: center;
@@ -542,20 +542,10 @@ button:focus-visible {
   border-radius: 999px;
   font-size: 0.9rem;
   font-weight: 700;
-  box-shadow: 0 6px 18px rgba(37, 211, 102, 0.35);
+  box-shadow: 0 6px 18px rgba(193, 53, 132, 0.3);
   transition: transform 0.2s, background-color 0.2s;
   min-width: 48px;
   min-height: 48px;
-}
-
-.redes-flutuantes .whatsapp-flutuante:hover {
-  background-color: var(--verde-whatsapp-escuro);
-  transform: translateY(-2px);
-}
-
-.redes-flutuantes .instagram-flutuante {
-  background: #C13584;
-  box-shadow: 0 6px 18px rgba(193, 53, 132, 0.3);
 }
 
 .redes-flutuantes .instagram-flutuante:hover {
@@ -662,7 +652,7 @@ button:focus-visible {
     display: none;
   }
 
-  .redes-flutuantes a {
+  .redes-flutuantes .instagram-flutuante {
     padding: 14px;
   }
 }
