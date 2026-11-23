@@ -93,4 +93,3 @@ window.setInterval(() => showSlide((activeSlide + 1) % heroSlides.length), 4500)
 }
 
 }
-
